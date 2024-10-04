@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 200vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr 6fr 4fr 3fr;
+    padding: 10px;
+    gap: 10px;
+}
+.div1{
+    display: grid;
+    background-color: blue;
+}
+.div2{
+    background-color: aqua;
+    display: grid;
+}
+.div3{
+    background-color: orange;
+}
+.div4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.tabla{
+    background-color: green;
+
+}
+.targeta{
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr;
+    gap: 10px;
+}
+.targeta1{
+    background-color: chartreuse;
+}
+.targeta2{
+    background-color: rgb(68, 135, 0);
+}
+.targeta3{
+    background-color: rgb(37, 74, 0);
+}
+.div5{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.formulario{
+    width: 50%;
+    height: auto;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formulario-container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formulario1{
+    background-color: darkred;
+    width: auto;
+    height: 35%;
+}
+.formulario2{
+    height: 75%;
+    width: auto;
+    background-color: rgb(167, 90, 90);
+}
+
+.div6{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.div6 div{
+    width: 25%;
+    height: auto;
+    background-color: red;
+}
